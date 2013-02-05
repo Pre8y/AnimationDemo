@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AniamtionDemoMainActivity" >
+	<LinearLayout
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+    	<Button 
+    	    android:id="@+id/cross_fade_views"
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content"
+    	    android:text="@string/test_cross_fade"
+    	    />
+    	<Button 
+    	    android:id="@+id/first_anim_button"
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="wrap_content"
+    	    android:text="@string/first_anim"
+    	    />
+    </LinearLayout>
+
+</RelativeLayout>
